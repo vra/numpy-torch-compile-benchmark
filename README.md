@@ -9,6 +9,7 @@ pip instal asv
 
 Then in the root folder to this repo, run:
 ```bash
+asv machine --yes
 asv run 2>&1 | tee log.txt
 python parse_log.py -o vis_folder
 ```
