@@ -75,7 +75,7 @@ class Eindot(Benchmark):
         np.inner(self.a, self.a)
 
     def time_inner_trans_a_a_th(self):
-        c(np.inner((self.a, self.a)
+        c(np.inner)(self.a, self.a)
 
     def time_inner_trans_a_ac(self):
         np.inner(self.a, self.ac)
